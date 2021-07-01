@@ -1,7 +1,7 @@
 /* ブラウザがそれぞれ持っているCSSをリセット */
 * {
   margin: 0px;
-  adding: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -9,6 +9,11 @@ header {
   width: 90%;
   padding: 15px 0;
   margin: 0 auto;
+}
+
+/* headerタグ内のheadingクラスにのみ反映 */
+header .heading {
+  font-size: 32px;
 }
 
 .main-visual {
